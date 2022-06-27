@@ -1,1 +1,1 @@
-# zuri-django-CURD-task
+# zuri-django-CRUD-task
