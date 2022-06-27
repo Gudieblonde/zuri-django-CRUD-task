@@ -29,9 +29,7 @@ class PostDetailView(DetailView):
 
 class PostUpdateView(UpdateView):
     model = Post
-    field = [
-        "__all__"
-    ]
+   
     
 class PostDeleteView(DeleteView):
     model = Post
@@ -41,4 +39,4 @@ class PostDeleteView(DeleteView):
 
     success_url  = reverse_lazy('blog:all')
 
-    template_name = 'home.html'
+    template_name = 'base.html'
